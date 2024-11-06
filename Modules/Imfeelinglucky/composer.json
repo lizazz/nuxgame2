@@ -1,0 +1,31 @@
+{
+    "name": "nwidart/imfeelinglucky",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Imfeelinglucky\\": "",
+            "Modules\\Imfeelinglucky\\App\\": "app/",
+            "Modules\\Imfeelinglucky\\Database\\Factories\\": "database/factories/",
+            "Modules\\Imfeelinglucky\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Imfeelinglucky\\Tests\\": "tests/"
+        }
+    }
+}

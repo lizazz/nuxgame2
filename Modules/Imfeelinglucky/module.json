@@ -1,0 +1,11 @@
+{
+    "name": "Imfeelinglucky",
+    "alias": "imfeelinglucky",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Imfeelinglucky\\App\\Providers\\ImfeelingluckyServiceProvider"
+    ],
+    "files": []
+}
