@@ -22,14 +22,8 @@
         .cell { display: table-cell; border: 1px solid #ddd; padding: 8px; text-align: left; }
         .header-cell { background-color: #f2f2f2; font-weight: bold; }
     </style>
-
-    {{-- Vite CSS --}}
-    {{-- {{ module_vite('build-imfeelinglucky', 'resources/assets/sass/app.scss') }} --}}
 </head>
 
 <body>
     @yield('content')
-
-    {{-- Vite JS --}}
-    {{-- {{ module_vite('build-imfeelinglucky', 'resources/assets/js/app.js') }} --}}
 </body>
